@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'DINOT';
+    src: url('./font/DINOT.woff2') format('woff2'),
+        url('./font/DINOT.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DINOT';
+    src: url('./font/DINOT-Light.woff2') format('woff2'),
+        url('./font/DINOT-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DINOT-CondBold';
+    src: url('./font/DINOT-CondBold.woff2') format('woff2'),
+        url('./font/DINOT-CondBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+* {
+    font-family: 'DINOT';
+}
+
+.logo {
+    width: 130px;
+}
+
+.banner {
+    background: url('./img/header.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.img1 {
+    background: url('./img/banner_01.png');
+    background-size: 100% 100%;
+
+}
+
+.img2 {
+    background: url('./img/banner_02.png');
+    background-size: 100% 100%;
+
+}
+
+.img3 {
+    background: url('./img/banner_03.png');
+    background-size: 100% 100%;
+
+}
+
+.img4 {
+    background: url('./img/banner_04.png');
+    background-size: 100% 100%;
+
+}
+
+
+
+.card-fone {
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 0.6em;
+}
+
+.card-fone p {
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'DINOT-CondBold';
+}
+
+@media (min-width: 768px) {
+    .card-fone {
+        padding: 30px;
+        width: 565px;
+        margin-bottom: 200px;
+        margin-top: 300px;
+        margin-left: 7%;
+    }
+
+    .card-fone p {
+        font-size: 2.3rem;
+        line-height: 1.2em;
+    }
+
+}
+
+.titulo {
+    font-size: 2.2em;
+    font-weight: bold;
+    font-family: 'DINOT-CondBold';
+}
+
+.sub-title {
+    font-weight: bold;
+    font-size: 1.7rem;
+    font-family: 'DINOT-CondBold';
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.fone {
+    height: 660px;
+}
+
+.text-fone {
+    font-size: 1.9em;
+    line-height: 1.2em;
+    font-weight: 300;
+}
+
+.sub-titulo-card {
+    font-size: 1.2em;
+}
+
+@media (max-width: 768px) {
+
+
+    .fone {
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 35vh;
+    }
+
+
+
+}
+
+@media (max-width: 550px) {
+
+
+    .fone {
+
+        height: 200px;
+    }
+
+
+
+}
